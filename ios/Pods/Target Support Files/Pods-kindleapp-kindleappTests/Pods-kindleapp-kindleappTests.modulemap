@@ -1,0 +1,6 @@
+module Pods_kindleapp_kindleappTests {
+  umbrella header "Pods-kindleapp-kindleappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_kindleapp {
+  umbrella header "Pods-kindleapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
