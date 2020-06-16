@@ -20,6 +20,7 @@
 		BFAAD50492E048706AFA5105 /* libPods-kindleapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C62A533DCBA2A272AAC5DB96 /* libPods-kindleapp.a */; };
 		EA980AA4E8BFB4263A44FB8C /* libPods-kindleapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4CE5D132AC6C417F160FBA /* libPods-kindleapp-tvOSTests.a */; };
 		EEE3F171BB63BDD073E3BCB3 /* libPods-kindleapp-kindleappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FBA6A2199819C03CFDD12A /* libPods-kindleapp-kindleappTests.a */; };
+		FFE5BF6A24988755000ECA75 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = FFE5BF6924988755000ECA75 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F0FBA6A2199819C03CFDD12A /* libPods-kindleapp-kindleappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kindleapp-kindleappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A1280DE7A00F94F67F157 /* Pods-kindleapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kindleapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-kindleapp-tvOSTests/Pods-kindleapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFE5BF6924988755000ECA75 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,6 @@
 				247A6EA9FE926A7B5DE5C81B /* Pods-kindleapp-tvOSTests.debug.xcconfig */,
 				F16A1280DE7A00F94F67F157 /* Pods-kindleapp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FFE5BF6924988755000ECA75 /* assets */,
 				13B07FAE1A68108700A75B9A /* kindleapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* kindleappTests */,
@@ -338,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE5BF6A24988755000ECA75 /* assets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
